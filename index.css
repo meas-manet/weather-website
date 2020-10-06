@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #DCDCDC;
+    color: #707070;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container{
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 50px;
+} */
+
+.form-rounded{
+    border-radius: 0.7em;
+}
+
+nav{
+    border-radius: 0.7em !important; 
+}
+
+.back-card{
+    border-radius: 3em !important; 
+}
+
+.city-name{
+    position: absolute;
+    width: 100%;
+}
+.city-name p{
+    font-size: 16pt;
+    font-weight: 400;
+}
+.city-name span{
+    font-weight: 400;
+    font-size: 36pt;
+    position: relative;
+    top: -30px;
+}
+
+.temp span{
+    font-weight: 100;
+    font-size: 5em;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.card-mid{
+    line-height: 0.5;
+}
+
+.condition {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.high::before{
+    content: '';
+    background: url('img/up.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.low::before{
+    content: '';
+    background: url('img/down.svg') no-repeat;
+    width: 10px;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.icon-container {
+     border-radius: 100%;
+     width: 100px;
+     height: 100px;
+     background: black;
+}
+.icon-container img{
+    margin: auto;
+}
+
+.card-buttom{
+    line-height: 0.5;
+}
+
+.card-buttom span{
+    font-size: 12px;
+}
+
+.card-buttom p{
+    font-size: 50px !important;
+    font-weight: 100 !important;
+    letter-spacing: -2px !important;
+}
+
+
+/* Hourly CSS */
+
+.Hourly-Card{
+    border-radius: 0.5em !important; 
+}
+
+/* Nearby CSS */
+.Nearby-th-Center{
+    text-align: center;
+}
+.Nearby-Card{
+    border-radius: 0.5em !important;
+}
+
+/* Menu */
+
+.custom{
+    background-color: white !important;
+    border-radius: 0.7em !important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.custom a{
+    color: black !important;
+
+}
+
+.nav-tabs .nav-link{
+    border-radius: 0.7em !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border-color: #fff #fff #fff;
+}
+
+
+/* Five-day */
+
+.FiveD-Backcard{
+    border-radius: 0.7em !important; 
+}
+.Fivecity-name{
+    padding: 15px;
+}
+.Fivecity-name p{
+    font-size: 20pt !important;
+    font-weight: 400 !important;
+}
+.Fivecity-name span{
+    font-weight: 400;
+    font-size: 16pt;
+}
+.FiveD-Icons{
+    display: flex;
+    justify-content: center;
+}
+.FiveD-Temp{
+    font-size: 34pt;
+    padding: 15px;
+}
+
